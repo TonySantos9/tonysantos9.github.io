@@ -1,0 +1,28 @@
+# Dependencies
+markdown:         kramdown  
+highlighter:      rouge
+
+# Setup
+title:            António Santos
+tagline:          'A Jekyll theme'
+description:      'Born in Portugal'
+# description:      'Born in Portugal. Looking for the code singularity.'
+url:              http://hyde.getpoole.com
+baseurl:          /
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+paginate_path: "blog/page:num/"
+
+# Custom vars
+version:          2.1.0
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+github:
+  repo:           https://github.com/poole/hyde

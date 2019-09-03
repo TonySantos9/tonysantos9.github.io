@@ -1,0 +1,16 @@
+img.avatar {
+    margin: inherit;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 48em) {
+    .sidebar {
+        overflow-y: scroll;
+    }
+    .sidebar::-webkit-scrollbar {
+        display: none;
+    }
+}
