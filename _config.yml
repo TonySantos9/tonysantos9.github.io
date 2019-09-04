@@ -5,8 +5,7 @@ highlighter:      rouge
 # Setup
 title:            António Santos
 tagline:          'A Jekyll theme'
-description:      'Born in Portugal'
-# description:      'Born in Portugal. Looking for the code singularity.'
+description:      'Portfolio & Blog'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
