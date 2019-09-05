@@ -1,10 +1,3 @@
-img.avatar {
-    margin: inherit;
-    text-align: center;
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
-}
 
 @media screen and (min-width: 48em) {
     .sidebar {
@@ -13,4 +6,12 @@ img.avatar {
     .sidebar::-webkit-scrollbar {
         display: none;
     }
+}
+
+img.avatar {
+    margin: inherit;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
 }
