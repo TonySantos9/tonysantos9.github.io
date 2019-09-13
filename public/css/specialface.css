@@ -1,17 +1,32 @@
-
-@media screen and (min-width: 48em) {
-    .sidebar {
-        overflow-y: scroll;
-    }
-    .sidebar::-webkit-scrollbar {
-        display: none;
-    }
-}
-
 img.avatar {
     margin: inherit;
     text-align: center;
     width: 50%;
     height: auto;
     border-radius: 50%;
+}
+
+.scroll {
+    overflow-y: auto;
+}
+
+.scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    /* -webkit-border-radius: 10px;
+    border-radius: 10px; */
+}
+
+.scroll::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: rgb(245, 245, 245);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    background: rgb(144, 169, 89);
 }

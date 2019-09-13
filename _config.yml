@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            António Santos
 tagline:          'A Jekyll theme'
-description:      'Portfolio & Blog'
+description:      'Portfolio &amp; Blog'
 url:              http://tonysantos9.github.io
 baseurl:          /
 
@@ -14,14 +14,17 @@ author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         5
-paginate_path: "blog/page:num/"
+# paginate:         5
+# paginate_path: "blog/page:num/"
 
 # Custom vars
 version:          2.1.0
 
+exclude:
+  - scrub_things/
+
 plugins:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-gist
 
 github:
