@@ -7,7 +7,7 @@ title:            António Santos
 tagline:          'A Jekyll theme'
 description:      'Portfolio &amp; Blog'
 url:              http://tonysantos9.github.io
-baseurl:          /
+baseurl:          
 
 
 author:
